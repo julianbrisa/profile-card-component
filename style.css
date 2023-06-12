@@ -1,0 +1,33 @@
+body {
+background-color: hsl(185, 75%, 39%);
+overflow: hidden;
+} 
+#top {
+position: absolute; 
+bottom: 55vh;
+width: 55vw;
+right: 55vw;
+}
+#bot {
+position: absolute;
+top:  55vh;
+width: 55vw;
+left:  55vw;
+}
+.card {
+    background-color: white;
+    height: 50vh;
+    width: 22vw;
+    position: absolute;
+    left: 37vw;
+    top:  30vh;
+}
+#capa {
+    width: 22vw;
+}
+#victor {
+    position: absolute;
+    bottom: 20vh;
+    right:   7.5vw;
+
+}
