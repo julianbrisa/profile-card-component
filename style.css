@@ -1,6 +1,7 @@
 body {
 background-color: hsl(185, 75%, 39%);
 overflow: hidden;
+font-family: 'Kumbh Sans', sans-serif;
 } 
 #top {
 position: absolute; 
@@ -21,13 +22,63 @@ left:  55vw;
     position: absolute;
     left: 37vw;
     top:  30vh;
+    border-radius: 5%;
 }
+
 #capa {
     width: 22vw;
+    border-radius: 5% 5% 0 0; 
 }
 #victor {
     position: absolute;
-    bottom: 20vh;
-    right:   7.5vw;
-
+    bottom: 25vh;
+    right:   7vw;
+    border-radius: 100%;
+    border:5px solid white;
 }
+.perfil {
+position: relative;
+left: 5vw;
+top: 5vh;
+font-size: 80%;
+}
+
+table 
+{
+    position: relative;
+    left: 3.5vw;
+    top:  5vh;
+}
+
+th,td {
+    position: relative; right: 20%;
+    padding-left: 38px;
+}
+
+span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+span, p {
+    color: gray;
+}
+
+p {
+    position: relative; 
+    left: 4.5vw;
+    bottom: 2vh;
+}
+
+hr {
+    position: relative;
+    top:  3vh;
+}
+td {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
